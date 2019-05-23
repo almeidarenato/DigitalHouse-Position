@@ -65,3 +65,24 @@ section .product {
   margin: 0 0 20px 20px;
   opacity: 1;
 }
+
+section .product-1 {
+  background-image: url("../imagens/product-1.jpg");
+}
+section article .img-label {
+  width: 70px;
+  float: right;
+  margin-top: 5px;
+}
+
+section .botao {
+  background-color: red;
+  border: rgb(255, 245, 245) 1px solid;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  height: 40px;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 220px;
+  margin-left: 111px;
+}
