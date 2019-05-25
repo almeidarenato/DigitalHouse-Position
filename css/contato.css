@@ -1,0 +1,13 @@
+section h1 {
+  color: black;
+  font-size: 38px;
+}
+section p {
+  color: black;
+  font-size: 22px;
+  text-align: justify;
+}
+
+.form-contato {
+  color: black;
+}

@@ -1,7 +1,6 @@
 body {
   font-family: "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
-
   margin: 0;
   padding: 0;
 }
@@ -13,7 +12,27 @@ header {
 nav {
   margin-top: 70px;
   background-color: #ffae00;
-  width: 1366px;
+  width: 1340px;
+}
+nav .input-form {
+  border-radius: 21px;
+  padding-left: 10px;
+  font-size: 15px;
+
+  outline: 0;
+}
+nav .input-form:focus {
+  border: 2px solid #3c00ff;
+  transition: all 0.8s ease-in-out;
+}
+
+nav button {
+  border-radius: 21px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background-color: #ff0000;
+  color: white;
 }
 
 #logo {
@@ -44,6 +63,9 @@ nav {
 #menu ul li a:hover {
   text-decoration: underline;
 }
+#menu ul li a:active {
+  color: black;
+}
 .form {
   display: inline-block;
   margin-left: 300px;
@@ -62,13 +84,28 @@ section .product {
   background-size: cover;
   background-color: #000000;
   float: left;
-  margin: 0 0 20px 20px;
+  margin: 20px 20px 0px 0px;
   opacity: 1;
+  box-shadow: 2px 2px 2px 2px #000000;
+}
+section .product:hover {
+  opacity: 0.5;
+  transition: opacity 0.8s ease-in-out;
 }
 
 section .product-1 {
   background-image: url("../imagens/product-1.jpg");
 }
+section .product-2 {
+  background-image: url("../imagens/product-2.jpg");
+}
+section .product-3 {
+  background-image: url("../imagens/product-3.jpg");
+}
+section .product-4 {
+  background-image: url("../imagens/product-4.jpg");
+}
+
 section article .img-label {
   width: 70px;
   float: right;
@@ -76,13 +113,32 @@ section article .img-label {
 }
 
 section .botao {
-  background-color: red;
+  background-color: #ff0000;
   border: rgb(255, 245, 245) 1px solid;
   color: white;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 16px;
   height: 40px;
   font-family: "Montserrat", sans-serif;
   margin-top: 220px;
-  margin-left: 111px;
+  margin-left: 110px;
+}
+
+section .name-product {
+  color: white;
+  background-color: #00000070;
+  text-align: center;
+  margin-top: 150px;
+  padding: 0px 60px 0px 60px;
+  font-size: 20px;
+  position: absolute;
+}
+footer {
+  margin-top: 20px;
+  height: 100px;
+  background-color: #ffae00;
+  text-align: center;
+  color: white;
+  line-height: 100px;
+  border-radius: 10px 10px 0 0;
 }
