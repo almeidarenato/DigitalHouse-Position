@@ -11,3 +11,24 @@ section p {
 .form-contato {
   color: black;
 }
+fieldset {
+  border: 2px solid rgb(6, 134, 167);
+  border-radius: 10px;
+  padding: 40px 40px 40px 40px;
+  display: block;
+  position: relative;
+  width: 400px;
+  margin-left: 250px;
+}
+fieldset div {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+fieldset div label {
+  margin-right: 20px;
+}
+fieldset legend {
+  color: #39c;
+  padding-left: 12px;
+  padding-right: 12px;
+}

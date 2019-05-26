@@ -49,27 +49,42 @@
           dolorum cumque neque! s
         </p>
         <form action="/seila" method="post" class="form-contato">
-          <div class="form-inline">
-            <div>
-              <label for="name">Nome:</label>
-              <input type="text" name="name" id="name" class="input-contato" />
+          <fieldset>
+            <legend>Contato</legend>
+            <div class="form-inline">
+              <div>
+                <label for="name">Nome:</label>
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  class="input-contato"
+                  autofocus
+                />
+              </div>
+              <div>
+                <label for="email">E-mail:</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  class="input-email"
+                />
+              </div>
             </div>
-            <div>
-              <label for="email">E-mail:</label>
-              <input type="email" name="email" id="email" class="input-email" />
-            </div>
-          </div>
 
-          <div>
-            <label for="mensagem">Mensagem:</label>
-            <textarea
-              name="mensagem"
-              id="mensagem"
-              cols="30"
-              rows="10"
-              class="textarea-contato"
-            ></textarea>
-          </div>
+            <div>
+              <label for="mensagem">Mensagem:</label>
+              <textarea
+                name="mensagem"
+                id="mensagem"
+                cols="30"
+                rows="10"
+                class="textarea-contato"
+              ></textarea>
+            </div>
+            <input type="button" value="Enviar" />
+          </fieldset>
         </form>
       </section>
     </main>
