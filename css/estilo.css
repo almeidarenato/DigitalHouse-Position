@@ -18,12 +18,11 @@ nav .input-form {
   border-radius: 21px;
   padding-left: 10px;
   font-size: 15px;
-
+  transition: all 0.8s ease-in-out;
   outline: 0;
 }
 nav .input-form:focus {
   border: 2px solid #3c00ff;
-  transition: all 0.8s ease-in-out;
 }
 
 nav button {
@@ -87,10 +86,10 @@ section .product {
   margin: 20px 20px 0px 0px;
   opacity: 1;
   box-shadow: 2px 2px 2px 2px #000000;
+  transition: opacity 0.8s ease-in-out;
 }
 section .product:hover {
   opacity: 0.5;
-  transition: opacity 0.8s ease-in-out;
 }
 
 section .product-1 {
