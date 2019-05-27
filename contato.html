@@ -49,30 +49,50 @@
           dolorum cumque neque! s
         </p>
         <form action="/seila" method="post" class="form-contato">
-          <fieldset>
-            <legend>Contato</legend>
-            <div class="form-inline">
-              <div>
-                <label for="name">Nome:</label>
-                <input
-                  type="text"
-                  name="name"
-                  id="name"
-                  class="input-contato"
-                  autofocus
-                />
-              </div>
-              <div>
-                <label for="email">E-mail:</label>
-                <input
-                  type="email"
-                  name="email"
-                  id="email"
-                  class="input-email"
-                />
-              </div>
+          <div class="form-inline">
+            <div>
+              <label for="name">Nome:</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                class="input-contato"
+                autofocus
+              />
             </div>
-
+            <div>
+              <label for="email">E-mail:</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                class="input-email input-contato"
+              />
+            </div>
+          </div>
+          <div class="form-inline">
+            <div>
+              <label for="name">Telefone:</label>
+              <input
+                type="text"
+                name="telefone"
+                id="telefone"
+                class="input-contato"
+                autofocus
+              />
+            </div>
+            <div>
+              <label for="name">Endereço:</label>
+              <input
+                type="text"
+                name="endereço"
+                id="endereço"
+                class="input-contato"
+                autofocus
+              />
+            </div>
+          </div>
+          <div class="form-inline">
             <div>
               <label for="mensagem">Mensagem:</label>
               <textarea
@@ -83,8 +103,8 @@
                 class="textarea-contato"
               ></textarea>
             </div>
-            <input type="button" value="Enviar" />
-          </fieldset>
+          </div>
+          <input type="button" value="Enviar" />
         </form>
       </section>
     </main>
